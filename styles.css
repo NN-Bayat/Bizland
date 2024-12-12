@@ -1,0 +1,19 @@
+:root{
+    --blue: #106eea;
+    --gray:#555555;
+    --bg: #f1f6fe;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    letter-spacing: 1px;
+}
+
+.navbar-brand span{
+    color: var(--blue);
+}
