@@ -1,6 +1,6 @@
-:root{
+:root {
     --blue: #106eea;
-    --gray:#555555;
+    --gray: #555252;
     --bg: #f1f6fe;
 }
 
@@ -10,10 +10,45 @@
     box-sizing: border-box;
 }
 
-.navbar-brand {
+.navbar-brand,
+.btn {
     letter-spacing: 1px;
 }
 
-.navbar-brand span{
+p{
+    color: var(--gray);
+    margin-bottom: 0;
+}
+
+.rangi {
     color: var(--blue);
+}
+
+.hero {
+    background-image: linear-gradient(rgba(255, 245, 245, 0.7), rgba(236, 233, 233, 0.5)), url(images/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    margin-top: 8.2rem;
+}
+
+.banner-content {
+    padding-top: 11rem;
+}
+
+.banner-content h1 {
+    font-size: 3.5rem;
+}
+
+.about{
+    background-color: var(--bg);
+}
+
+.mini-title{
+    background-color: #8cf5ecb2;
+    width: 100px;
+}
+
+.kachalo span{
+    height: 80px;
 }
