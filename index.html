@@ -5,13 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BIZLAND.COM</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="fontawesome/css/all.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
 </head>
 
 <body>
-  <header>
+  <header class=" position-fixed top-0 w-100">
 
     <section class=" bg-primary d-lg-flex d-none">
       <div class="container text-white mx-auto justify-content-lg-between d-flex">
@@ -31,7 +32,8 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light py-lg-2">
       <div class="container">
-        <a class="navbar-brand fs-1 fw-semibold " href="#">Bizland<span>.</span></a>
+        <a class="navbar-brand fs-1 fw-semibold " href="#"><span class="rangi">Biz</span>land<span
+            class="rangi fw-bold">.</span></a>
         <button class="navbar-toggler p-0 border-0" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent">
           <span class="navbar-toggler-icon"></span>
@@ -40,15 +42,15 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
             <li class="nav-item">
-              <a class="nav-link active" href="#home">Home</a>
+              <a class="nav-link active" href="#">Home</a>
             </li>
 
             <li class="nav-item ps-lg-4">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#">About</a>
             </li>
 
             <li class="nav-item ps-lg-4">
-              <a class="nav-link" href="#services">Services</a>
+              <a class="nav-link" href="#">Services</a>
             </li>
 
             <li class="nav-item ps-lg-4">
@@ -70,7 +72,7 @@
             </li>
 
             <li class="nav-item ps-lg-4">
-              <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Contact</a>
+              <a class="nav-link " href="#">Contact</a>
             </li>
           </ul>
         </div>
@@ -79,12 +81,112 @@
   </header>
 
   <main>
+    <section>
+      <div class="hero">
+        <div class="container banner-content d-flex flex-column align-items-lg-start">
+          <h1 class="fw-bolder">Welcome to <span class="rangi">Bizland</span></h1>
+          <p class="fs-3"><i class="fa-solid fa-angle-right text-primary"></i> We are team of talented designers making
+            websites with <span class="rangi fw-bold">{<em> Bootstrap </em>}</span></p>
+          <div class="hero-btn d-lg-flex gap-lg-3 align-items-center mt-4">
+            <button class="btn btn-primary text-uppercase fw-semibold px-lg-4 py-lg-2">Get Started</button>
+            <div class="d-flex align-items-center p-lg-1">
+              <i class="fa-regular fa-circle-play fa-2x text-primary"></i>
+              <span class="ms-lg-1 fs-4">Watch Video</span>
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <div class="banner-box my-lg-5 py-lg-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3">
+              <div class=" p-lg-5 shadow-lg rounded-1">
+                <i class="fa-solid fa-basketball-ball fa-3x text-primary pb-lg-3"></i>
+                <h4>Something</h4>
+                <p class="fw-semibold">Sorem ipsconse cteturum dolor sit amet conse ctetur adipi sicing elit.</p>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="p-lg-5 shadow-lg rounded-1">
+                <i class='bx bx-file fa-3x text-primary pb-lg-3'></i>
+                <h4>Next Something</h4>
+                <p class="fw-semibold">Norem ipsum dolor sit amet conse ctetur adipi sicin Recus andae.</p>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="p-lg-5 shadow-lg rounded-1">
+                <i class='bx bx-tachometer fa-3x text-primary pb-lg-3'></i>
+                <h4>Something too</h4>
+                <p class="fw-semibold">Torem ipsum dolor sit amet conse ctetur adipi sicconse cteturing elit, Recus
+                  andae.</p>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class=" p-lg-5 shadow-lg rounded-1">
+                <i class="fa-solid fa-earth fa-3x text-primary pb-lg-3"></i>
+                <h4>Last Something</h4>
+                <p class="fw-semibold">Lorem ipsum dolor sit amet conse ctecourtur adipi sicing elit, Recus andae.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section class="about mb-5 pt-lg-5">
+      <div class="pt-lg-5 ">
+        <div class="mini-title rounded-5 d-flex align-items-center justify-content-center mx-auto">
+          <span class="text-uppercase text-primary fw-bold">about</span>
+        </div>
 
+        <div class="mx-auto align-items-center d-flex flex-column w-50 mt-lg-4 pb-lg-3">
+          <h1 class="text-capitalize">find out more <span class="rangi">about us</span></h1>
+          <p class="w-100 text-center">Amet consec tetur adipe secang elit, dassum enda porro dolore libero expedi
+            taconse ctetur Qunda porro dolore libero expedita conse ctetur.</p>
+        </div>
+      </div>
 
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="w-100">
+              <img class="shadow-lg" src="images/about.jpg" width="100%" alt="dont worry">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div>
+              <h2 class="fw-semibold"> Ipsum dolor sitood ameteamro condevie sectetur adipi cinelit.</h2>
+              <p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita deleniti pariatur praesentium
+                  molestiae alias quisquam eveniet dicta mollitia iure assumenda.</em></p>
+            </div>
+            <div class="kachalo">
 
+              <div class="d-flex mb-lg-4 mt-lg-5">
+                <span class="rounded-circle p-4 text-primary align-items-center  d-flex shadow"><i class='bx bx-store-alt fa-2x '></i></span>
+                <span class="ps-4">
+                  <h4>Lipsum dolor sitmet concing elitlupe</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui sunt fugiat pariatur, aspernatur odio
+                    qumeniam nobis.</p>
+                </span>
+              </div>
 
+              <div class="d-flex">
+                <span class="rounded-circle p-4 text-primary align-items-center d-flex shadow"><i
+                    class='bx bx-images fa-2x'></i></span>
+                <span class="ps-4">
+                  <h4>Sitmet concing elitlupe dipsum dolor</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui sunt fugiat pariatur, aspernatur odio
+                    quminus nulla sed, veniam nobis.</p>
+                </span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
 
 
   </main>
@@ -96,7 +198,7 @@
   </footer>
 
   <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-  
+
 </body>
 
 </html>
