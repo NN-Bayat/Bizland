@@ -17,7 +17,7 @@
 
 p{
     color: var(--gray);
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
 }
 
 .rangi {
@@ -45,10 +45,37 @@ p{
 }
 
 .mini-title{
-    background-color: #8cf5ecb2;
+    background-color: #c3dddbb2;
     width: 100px;
 }
 
 .kachalo span{
     height: 80px;
+}
+
+.about-boxs{
+    background-color: var(--bg);
+}
+
+.about-boxs-icon{
+    top: -38px;
+    border: 6px solid white;
+}
+
+.services-icons{
+    background-color: var(--bg);
+}
+
+.contact-address{
+    border: 3px dotted var(--blue);
+}
+
+textarea{
+    resize: none !important;
+    height: 160px;
+}
+
+input{
+    height: 3rem;
+    color: gray !important;
 }
