@@ -10,6 +10,15 @@
     box-sizing: border-box;
 }
 
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
 .navbar-brand,
 .btn {
     letter-spacing: 1px;
@@ -78,4 +87,8 @@ textarea{
 input{
     height: 3rem;
     color: gray !important;
+}
+
+.footer{
+    background-color: var(--bg);
 }
