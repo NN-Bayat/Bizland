@@ -92,3 +92,12 @@ input{
 .footer{
     background-color: var(--bg);
 }
+
+.footer li p{
+    border-bottom: 1px dotted transparent;
+}
+
+.footer li p:hover {
+    color: var(--blue);
+    border-bottom: 1px dotted var(--blue);
+}
