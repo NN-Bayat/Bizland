@@ -10,13 +10,13 @@
     box-sizing: border-box;
 }
 
-li{
+li {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
-    
+
 }
 
 .navbar-brand,
@@ -24,7 +24,7 @@ a{
     letter-spacing: 1px;
 }
 
-p{
+p {
     color: var(--gray);
     margin-bottom: 0 !important;
 }
@@ -38,7 +38,7 @@ p{
     background-position: center;
     background-size: cover;
     height: 70vh;
-    margin-top: 8.2rem;
+    margin-top: 7.5rem;
 }
 
 .banner-content {
@@ -49,55 +49,90 @@ p{
     font-size: 3.5rem;
 }
 
-.about{
+.about {
     background-color: var(--bg);
 }
 
-.mini-title{
+.mini-title {
     background-color: #c3dddbb2;
     width: 100px;
 }
 
-.kachalo span{
+.kachalo span {
     height: 80px;
 }
 
-.about-boxs{
+.about-boxs {
     background-color: var(--bg);
 }
 
-.about-boxs-icon{
+.about-boxs-icon {
     top: -38px;
     border: 6px solid white;
 }
 
-.services-icons{
+.services-icons {
     background-color: var(--bg);
 }
 
-.contact-address{
+.contact-address {
     border: 3px dotted var(--blue);
 }
 
-textarea{
+textarea {
     resize: none !important;
     height: 160px;
 }
 
-input{
+input {
     height: 3rem;
     color: gray !important;
 }
 
-.footer{
+.footer {
     background-color: var(--bg);
 }
 
-.footer li p{
+.footer li p {
     border-bottom: 1px dotted transparent;
 }
 
 .footer li p:hover {
     color: var(--blue);
     border-bottom: 1px dotted var(--blue);
+}
+
+
+
+
+@media(max-width:768px) {
+    .hero {
+        margin-top: 4rem;
+        height: 80vh;
+    }
+
+    .banner-content {
+        padding-top: 12rem;
+    }
+
+
+
+
+}
+
+@media(max-width:480px) {
+    .hero {
+        margin-top: 2rem;
+    }
+
+    .banner-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .kachalo h4 {
+        font-size: 20px !important;
+    }
+
+
+
 }
