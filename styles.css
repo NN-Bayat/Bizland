@@ -24,6 +24,15 @@ a {
     letter-spacing: 1px;
 }
 
+.nav-link:hover, 
+.active{
+    color: var(--blue) !important;
+    border-bottom: 2px solid var(--blue);
+    padding-bottom: 5px;
+}
+
+
+
 p {
     color: var(--gray);
     margin-bottom: 0 !important;
@@ -46,7 +55,7 @@ p {
 }
 
 .banner-content h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 .about {
@@ -105,6 +114,7 @@ input {
 
 
 
+
 @media(max-width:768px) {
     .hero {
         margin-top: 4rem;
@@ -115,7 +125,9 @@ input {
         padding-top: 12rem;
     }
 
-
+    .banner-content h1 {
+        font-size: 2.8rem;
+    }
 
 
 }
@@ -133,6 +145,9 @@ input {
         font-size: 20px !important;
     }
 
-
+    .input-group button{
+        border-top-left-radius: 5px !important;
+        border-bottom-left-radius: 5px !important;
+    }
 
 }
